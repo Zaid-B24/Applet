@@ -2,9 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function NotFound() {
   return (
-    <div className="min-h-[70vh] flex flex-col items-center justify-center px-5 text-center bg-[#EFF1F3]">
+    <div className="min-h-[70vh] flex flex-col items-center justify-center px-5 text-center bg-surface-light">
       <div className="max-w-md bg-white p-8 sm:p-12 rounded-3xl shadow-xl border border-purple-100 flex flex-col items-center">
-        {/* Animated/Fun Visual Icon Placeholder */}
         <div className="w-24 h-24 rounded-full bg-purple-100 flex items-center justify-center mb-6 animate-bounce">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +17,6 @@ export default function NotFound() {
             strokeLinejoin="round"
             className="text-purple-600"
           >
-            {/* Chef hat/cooking metaphor icon */}
             <path d="M6 18h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2Z" />
             <path d="M12 2v3" />
             <path d="M9 2v3" />
@@ -27,8 +25,7 @@ export default function NotFound() {
           </svg>
         </div>
 
-        {/* Custom Message Headlines */}
-        <h1 className="text-3xl font-bold text-[#1a1a1a] mb-3">
+        <h1 className="text-3xl font-bold text-text-muted mb-3">
           Oops! We're Cooking...
         </h1>
 
@@ -38,7 +35,6 @@ export default function NotFound() {
           safety.
         </p>
 
-        {/* Back to Home Button */}
         <Link
           to="/"
           className="bg-linear-to-r from-violet-600 to-purple-600 text-white px-8 py-3 rounded-full font-medium shadow-md hover:scale-105 transition duration-300 w-full sm:w-auto"

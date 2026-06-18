@@ -115,7 +115,7 @@ export const Header = () => {
           </div>
 
           <button
-            className="lg:hidden text-[#161616] text-2xl"
+            className="lg:hidden text-text-main text-2xl"
             aria-label="Open menu"
             aria-expanded={isMobileMenuOpen}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
