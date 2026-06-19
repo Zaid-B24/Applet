@@ -7,12 +7,12 @@ export const Blog = () => {
   return (
     <div>
       <HeroHeader title={title} />
-      <section className="py-16 sm:py-20 bg-surface-light min-h-screen">
-        <div className="max-w-295 mx-auto px-5">
-          <h2 className="text-3xl sm:text-4xl font-bold text-text-main mb-4">
+      <section className="py-14 sm:py-16 lg:py-20 bg-surface-light min-h-screen">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10">
+          <h2 className="text-3xl sm:text-4xl font-bold text-black text-center mb-4">
             Latest News
           </h2>
-          <p className="text-gray-600">
+          <p className="text-center text-gray-600 mb-12">
             Stay updated with our latest insights, tips, and strategies in
             digital marketing, web design, and IT solutions.
           </p>

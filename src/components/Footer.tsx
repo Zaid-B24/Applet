@@ -25,7 +25,7 @@ const SOCIAL_LINKS = [
   { icon: FacebookIcon, bg: "bg-[#1877f2]", url: "#" },
   { icon: InstagramIcon, bg: "bg-[#e4405f]", url: "#" },
   { icon: LinkedInIcon, bg: "bg-[#0a66c2]", url: "#" },
-  { icon: XIcon, bg: "bg-black", url: "#" }, // Preserved original hex codes specifically for exact brand matching of external socials
+  { icon: XIcon, bg: "bg-black", url: "#" },
 ];
 
 export const Footer = () => {
@@ -46,7 +46,7 @@ export const Footer = () => {
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-3 max-w-md mx-auto">
             <input
               placeholder="Enter your email"
-              className="w-full sm:w-71.25 h-10 rounded-full px-4 text-sm outline-none border border-gray-300 focus:ring-2 focus:ring-brand-secondary transition-all"
+              className="w-full sm:w-71.25 h-10 rounded-full px-4 text-sm outline-none border border-gray-300 focus:ring-2 focus:ring-brand-light bg-white transition-all"
               type="email"
             />
             <Link

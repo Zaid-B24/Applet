@@ -1,5 +1,5 @@
 import Button from "./Button";
-import { CheckCircleIcon, PlayCircleIcon } from "./Icons";
+import { ArrowRightSolidIcon, CheckCircleIcon } from "./Icons";
 
 export const DigitalSolution = () => {
   const features = [
@@ -52,9 +52,9 @@ export const DigitalSolution = () => {
               ))}
             </div>
 
-            <Button variant="outline">
-              <PlayCircleIcon className="text-xl" />
-              Watch Video
+            <Button variant="rounded">
+              Learn More
+              <ArrowRightSolidIcon className="w-[1em] h-[1em]" />
             </Button>
           </div>
         </div>

@@ -20,7 +20,6 @@ export default function Input({ className = "", ...props }: InputProps) {
     return <textarea className={`${baseStyles} ${className}`} {...rest} />;
   }
 
-  // Default to standard input
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { as, ...rest } = props as StandardInputProps;
   return <input className={`${baseStyles} ${className}`} {...rest} />;

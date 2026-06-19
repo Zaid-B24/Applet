@@ -16,7 +16,7 @@ export const TrustedPartner = () => {
       <div className="max-w-295 mx-auto px-5">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-17.5 items-center">
           <div className="max-w-130 text-center lg:text-left mx-auto lg:mx-0">
-            <span className="inline-flex px-3 py-1 rounded-full bg-brand-light text-brand-secondary text-[10px] font-semibold tracking-wider">
+            <span className="inline-flex px-3 py-1 rounded-full bg-brand-muted text-brand-secondary text-[10px] font-semibold tracking-wider">
               Why Choose Us
             </span>
 

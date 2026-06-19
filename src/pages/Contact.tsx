@@ -97,7 +97,7 @@ export const Contacts = () => {
                 />
 
                 <Button type="submit" variant="primary" className="w-full mt-2">
-                  Send Message
+                  Contact Us
                 </Button>
               </form>
             </div>
