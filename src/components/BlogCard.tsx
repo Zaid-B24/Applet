@@ -1,7 +1,19 @@
 import { Link } from "react-router-dom";
 import { ArrowRightIcon } from "./Icons";
 
-export default function BlogCard({ post }) {
+export interface BlogPost {
+  date: string;
+  title: string;
+  desc: string;
+  imgSrc: string;
+  slug: string;
+}
+
+interface BlogCardProps {
+  post: BlogPost;
+}
+
+export default function BlogCard({ post }: BlogCardProps) {
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col">
       <div className="relative h-48 overflow-hidden bg-brand-light">
