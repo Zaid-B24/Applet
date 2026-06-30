@@ -11,8 +11,13 @@ export const Home = () => {
   return (
     <div>
       <section
-        className="relative min-h-42.5 sm:min-h-screen overflow-hidden bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/assets/MainHero-3ef6p8y3.jpg')" }}
+        className="relative min-h-170 sm:min-h-screen overflow-hidden"
+        style={{
+          backgroundImage: "url('/assets/MainHero-3ef6p8y3.jpg')",
+          backgroundSize: "auto 120%",
+          backgroundPosition: "center center",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <div className="absolute inset-0 bg-white/10"></div>
 
